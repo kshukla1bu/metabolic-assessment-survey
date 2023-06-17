@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# Metabolic Assessment Survey front-end
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). \
+Designed using [Tailwindcss](https://tailwindcss.com/) 
 
-## Available Scripts
+
+## Available Scripts    
 
 In the project directory, you can run:
 

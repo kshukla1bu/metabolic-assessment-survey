@@ -1,0 +1,699 @@
+{
+    "user": {
+        "name": "",
+        "age": 0,
+        "date": "2014-06-25T00:00:00.000Z",
+        "sex": ""
+    },
+    "surveyCommon": {
+        "CAT1": [
+            {
+                "query": "Feeling that bowels do not empty completely",
+                "response": 0
+            },
+            {
+                "query": "Lower abdominal pain relief by passing stool or gas",
+                "response": 0
+            },
+            {
+                "query": "Alternating constipation and diarrhea",
+                "response": 0
+            },
+            {
+                "query": "Diarrhea",
+                "response": 0
+            },
+            {
+                "query": "Constipation",
+                "response": 0
+            },
+            {
+                "query": "Hard, dry, or small stool",
+                "response": 0
+            },
+            {
+                "query": "Coated tongue of “fuzzy” debris on tongue",
+                "response": 0
+            },
+            {
+                "query": "Pass large amount of foul smelling gas",
+                "response": 0
+            },
+            {
+                "query": "More than 3 bowel movements daily",
+                "response": 0
+            },
+            {
+                "query": "Use laxatives frequently",
+                "response": 0
+            }
+        ],
+        "CAT2": [
+            {
+                "query": "Excessive belching, burping, or bloating",
+                "response": 0
+            },
+            {
+                "query": "Gas immediately following a meal",
+                "response": 0
+            },
+            {
+                "query": "Offensive breath",
+                "response": 0
+            },
+            {
+                "query": "Difficult bowel movements",
+                "response": 0
+            },
+            {
+                "query": "Sense of fullness during and after meals",
+                "response": 0
+            },
+            {
+                "query": "Difficulty digesting fruits and vegetables, undigested foods found in stools",
+                "response": 0
+            }
+        ],
+        "CAT3": [
+            {
+                "query": "Stomach pain, burning, or aching 1- 4 hours after eating",
+                "response": 0
+            },
+            {
+                "query": "Use antacids",
+                "response": 0
+            },
+            {
+                "query": "Feel hungry an hour or two after eating",
+                "response": 0
+            },
+            {
+                "query": "Heartburn when lying down or bending forward.",
+                "response": 0
+            },
+            {
+                "query": "Temporary relief from antacids, food, milk, carbonated beverages",
+                "response": 0
+            },
+            {
+                "query": "Digestive problems subside with rest and relaxation",
+                "response": 0
+            },
+            {
+                "query": "Heartburn due to spicy foods, chocolate, citrus, peppers, alcohol, and caffeine",
+                "response": 0
+            }
+        ],
+        "CAT4": [
+            {
+                "query": "Roughage and fiber cause constipation",
+                "response": 0
+            },
+            {
+                "query": "Indigestion and fullness lasts 2-4 hours after eating",
+                "response": 0
+            },
+            {
+                "query": "Pain, tenderness, soreness on left side under rib cage",
+                "response": 0
+            },
+            {
+                "query": "Excessive passage of gas",
+                "response": 0
+            },
+            {
+                "query": "Nausea and/or vomiting",
+                "response": 0
+            },
+            {
+                "query": "Stool undigested, foul smelling, mucous-like, greasy, or poorly formed",
+                "response": 0
+            },
+            {
+                "query": "Frequent urination",
+                "response": 0
+            },
+            {
+                "query": "Increased thirst and appetite",
+                "response": 0
+            },
+            {
+                "query": "Difficulty losing weight",
+                "response": 0
+            }
+        ],
+        "CAT5": [
+            {
+                "query": "Greasy or high-fat foods cause distress",
+                "response": 0
+            },
+            {
+                "query": "Lower bowel gas and or bloating several hours after eating",
+                "response": 0
+            },
+            {
+                "query": "Bitter metallic taste in mouth, especially in the morning",
+                "response": 0
+            },
+            {
+                "query": "Unexplained itchy skin",
+                "response": 0
+            },
+            {
+                "query": "Yellowish cast to eyes",
+                "response": 0
+            },
+            {
+                "query": "Stool color alternates from clay colored to normal brown",
+                "response": 0
+            },
+            {
+                "query": "Reddened skin, especially palms",
+                "response": 0
+            },
+            {
+                "query": "Dry or flaky skin and/or hair",
+                "response": 0
+            },
+            {
+                "query": "History of gallbladder attacks or stones",
+                "response": 0
+            },
+            {
+                "query": "Have you had your gallbladder removed",
+                "response": false
+            }
+        ],
+        "CAT6": [
+            {
+                "query": "Crave sweets during the day",
+                "response": 0
+            },
+            {
+                "query": "Irritable if meals are missed",
+                "response": 0
+            },
+            {
+                "query": "Depend on coffee to keep yourself going or started",
+                "response": 0
+            },
+            {
+                "query": "Get lightheaded if meals are missed",
+                "response": 0
+            },
+            {
+                "query": "Eating relieves fatigue",
+                "response": 0
+            },
+            {
+                "query": "Feel shaky, jittery, or have tremors",
+                "response": 0
+            },
+            {
+                "query": "Agitated, easily upset, nervous",
+                "response": 0
+            },
+            {
+                "query": "Poor memory/forgetful",
+                "response": 0
+            },
+            {
+                "query": "Blurred vision",
+                "response": 0
+            }
+        ],
+        "CAT7": [
+            {
+                "query": "Fatigue after meals",
+                "response": 0
+            },
+            {
+                "query": "Crave sweets during the day",
+                "response": 0
+            },
+            {
+                "query": "Eating sweets does not relieve cravings for sugar",
+                "response": 0
+            },
+            {
+                "query": "Must have sweets after meals",
+                "response": 0
+            },
+            {
+                "query": "Waist girth is equal or larger than hip girth",
+                "response": 0
+            },
+            {
+                "query": "Frequent urination",
+                "response": 0
+            },
+            {
+                "query": "Increased thirst and appetite",
+                "response": 0
+            },
+            {
+                "query": "Difficulty losing weight",
+                "response": 0
+            }
+        ],
+        "CAT8": [
+            {
+                "query": "Cannot stay asleep",
+                "response": 0
+            },
+            {
+                "query": "Crave salt",
+                "response": 0
+            },
+            {
+                "query": "Slow starter in the morning",
+                "response": 0
+            },
+            {
+                "query": "Afternoon fatigue",
+                "response": 0
+            },
+            {
+                "query": "Dizziness when standing up quickly",
+                "response": 0
+            },
+            {
+                "query": "Afternoon headaches",
+                "response": 0
+            },
+            {
+                "query": "Headaches with exertion or stress",
+                "response": 0
+            },
+            {
+                "query": "Weak nails",
+                "response": 0
+            }
+        ],
+        "CAT9": [
+            {
+                "query": "Cannot fall asleep",
+                "response": 0
+            },
+            {
+                "query": "Perspire easily",
+                "response": 0
+            },
+            {
+                "query": "Under high amounts of stress",
+                "response": 0
+            },
+            {
+                "query": "Weight gain when under stress",
+                "response": 0
+            },
+            {
+                "query": "Wake up tired even after 6 or more hours of sleep",
+                "response": 0
+            },
+            {
+                "query": "Excessive perspiration or perspiration with little or no activity",
+                "response": 0
+            }
+        ],
+        "CAT10": [
+            {
+                "query": "Tired, sluggish",
+                "response": 0
+            },
+            {
+                "query": "Feel cold – hands, feet, all over",
+                "response": 0
+            },
+            {
+                "query": "Require excessive amounts of sleep to function properly",
+                "response": 0
+            },
+            {
+                "query": "Increase in weight gain even with low-calorie diet",
+                "response": 0
+            },
+            {
+                "query": "Gain weight easily",
+                "response": 0
+            },
+            {
+                "query": "Difficult, infrequent bowel movements",
+                "response": 0
+            },
+            {
+                "query": "Depression, lack of motivation",
+                "response": 0
+            },
+            {
+                "query": "Morning headaches that wear off as the day progresses",
+                "response": 0
+            },
+            {
+                "query": "Outer third of eyebrow thins",
+                "response": 0
+            },
+            {
+                "query": "Thinning of hair on scalp, face, or genitals or excessive falling hair",
+                "response": 0
+            },
+            {
+                "query": "Dryness of skin and/or scalp",
+                "response": 0
+            },
+            {
+                "query": "Mental sluggishness",
+                "response": 0
+            }
+        ],
+        "CAT11": [
+            {
+                "query": "Heart palpitations",
+                "response": 0
+            },
+            {
+                "query": "Inward trembling",
+                "response": 0
+            },
+            {
+                "query": "Increased pulse even at rest",
+                "response": 0
+            },
+            {
+                "query": "Nervous and emotional",
+                "response": 0
+            },
+            {
+                "query": "Insomnia",
+                "response": 0
+            },
+            {
+                "query": "Night sweats",
+                "response": 0
+            },
+            {
+                "query": "Difficulty gaining weight",
+                "response": 0
+            }
+        ],
+        "CAT12": [
+            {
+                "query": "Diminished sex drive",
+                "response": 0
+            },
+            {
+                "query": "Menstrual disorders or lack of menstruation",
+                "response": 0
+            },
+            {
+                "query": "Increased ability to eat sugars without symptoms",
+                "response": 0
+            }
+        ],
+        "CAT13": [
+            {
+                "query": "Increased sex drive",
+                "response": 0
+            },
+            {
+                "query": "Tolerance to sugars reduced",
+                "response": 0
+            },
+            {
+                "query": "Splitting type headaches",
+                "response": 0
+            }
+        ]
+    },
+    "surveyMale": {
+        "CAT14": [
+            {
+                "query": "Urination difficulty or dribbling",
+                "response": 0
+            },
+            {
+                "query": "Frequent urination",
+                "response": 0
+            },
+            {
+                "query": "Pain inside of legs or heels",
+                "response": 0
+            },
+            {
+                "query": "Feeling of incomplete bowel evacuation",
+                "response": 0
+            },
+            {
+                "query": "Leg nervousness at night",
+                "response": 0
+            }
+        ],
+        "CAT15": [
+            {
+                "query": "Decrease in libido",
+                "response": 0
+            },
+            {
+                "query": "Decrease in spontaneous morning erections",
+                "response": 0
+            },
+            {
+                "query": "Decrease in fullness of erections",
+                "response": 0
+            },
+            {
+                "query": "Difficulty in maintaining morning erections",
+                "response": 0
+            },
+            {
+                "query": "Spells of mental fatigue",
+                "response": 0
+            },
+            {
+                "query": "Inability to concentrate",
+                "response": 0
+            },
+            {
+                "query": "Episodes of depression",
+                "response": 0
+            },
+            {
+                "query": "Muscle soreness",
+                "response": 0
+            },
+            {
+                "query": "Decrease in physical stamina",
+                "response": 0
+            },
+            {
+                "query": "Unexplained weight gain",
+                "response": 0
+            },
+            {
+                "query": "Increase in fat distribution around chest and hips",
+                "response": 0
+            },
+            {
+                "query": "Sweating attacks",
+                "response": 0
+            },
+            {
+                "query": "More emotional than in the past",
+                "response": 0
+            }
+        ]
+    },
+    "surveyFemale": {
+        "CAT16": [
+            {
+                "query": "Are you perimenopausal",
+                "response": false
+            },
+            {
+                "query": "Alternating menstrual cycle lengths",
+                "response": false
+            },
+            {
+                "query": "Extended menstrual cycle, greater than 32 days",
+                "response": false
+            },
+            {
+                "query": "Shortened menses, less than every 24 days",
+                "response": false
+            },
+            {
+                "query": "Pain and cramping during periods",
+                "response": 0
+            },
+            {
+                "query": "Scanty blood flow",
+                "response": 0
+            },
+            {
+                "query": "Heavy blood flow",
+                "response": 0
+            },
+            {
+                "query": "Breast pain and swelling during menses",
+                "response": 0
+            },
+            {
+                "query": "Pelvic pain during menses",
+                "response": 0
+            },
+            {
+                "query": "Irritable and depressed during menses",
+                "response": 0
+            },
+            {
+                "query": "Acne breakouts",
+                "response": 0
+            },
+            {
+                "query": "Facial hair growth",
+                "response": 0
+            },
+            {
+                "query": "Hair loss/thinning",
+                "response": 0
+            }
+        ],
+        "CAT17": [
+            {
+                "query": "How many years have you been menopausal?",
+                "response": 0
+            },
+            {
+                "query": "Since menopause, do you ever have uterine bleeding?",
+                "response": false
+            },
+            {
+                "query": "Hot flashes",
+                "response": 0
+            },
+            {
+                "query": "Mental fogginess",
+                "response": 0
+            },
+            {
+                "query": "Disinterest in sex",
+                "response": 0
+            },
+            {
+                "query": "Mood swings",
+                "response": 0
+            },
+            {
+                "query": "Depression",
+                "response": 0
+            },
+            {
+                "query": "Painful intercourse",
+                "response": 0
+            },
+            {
+                "query": "Shrinking breasts",
+                "response": 0
+            },
+            {
+                "query": "Facial hair growth",
+                "response": 0
+            },
+            {
+                "query": "Acne",
+                "response": 0
+            },
+            {
+                "query": "Increased vaginal pain, dryness or itching",
+                "response": 0
+            }
+        ]
+    },
+    "finalResults": {
+        "CAT1Result": {
+            "health_concern": "Colon",
+            "score": 0,
+            "severity": ""
+        },
+        "CAT2Result": {
+            "health_concern": "Hypochlorhydria",
+            "score": 0,
+            "severity": ""
+        },
+        "CAT3Result": {
+            "health_concern": "Hyperacidity",
+            "score": 0,
+            "severity": ""
+        },
+        "CAT4Result": {
+            "health_concern": "Small Intestine/Pancreas",
+            "score": 0,
+            "severity": ""
+        },
+        "CAT5Result": {
+            "health_concern": "Biliary Tract",
+            "score": 0,
+            "severity": ""
+        },
+        "CAT6Result": {
+            "health_concern": "Hypoglycemia",
+            "score": 0,
+            "severity": ""
+        },
+        "CAT7Result": {
+            "health_concern": "Insulin Resistance",
+            "score": 0,
+            "severity": ""
+        },
+        "CAT8Result": {
+            "health_concern": "Adrenal Hypofunction (Fatigue)",
+            "score": 0,
+            "severity": ""
+        },
+        "CAT9Result": {
+            "health_concern": "Adrenal Hyperfunction (Stress)",
+            "score": 0,
+            "severity": ""
+        },
+        "CAT10Result": {
+            "health_concern": "Hypothyroid",
+            "score": 0,
+            "severity": ""
+        },
+        "CAT11Result": {
+            "health_concern": "Thyroid Hyperfunction",
+            "score": 0,
+            "severity": ""
+        },
+        "CAT12Result": {
+            "health_concern": "Pituitary Hypofunction",
+            "score": 0,
+            "severity": ""
+        },
+        "CAT13Result": {
+            "health_concern": "Pituitary Hyperfunction",
+            "score": 0,
+            "severity": ""
+        },
+        "CAT14Result": {
+            "health_concern": "Prostate Problems (Males)",
+            "score": 0,
+            "severity": ""
+        },
+        "CAT15Result": {
+            "health_concern": "Andropause (Males)",
+            "score": 0,
+            "severity": ""
+        },
+        "CAT16Result": {
+            "health_concern": "Menstruating Problems (Females)",
+            "score": 0,
+            "severity": ""
+        },
+        "CAT17Result": {
+            "health_concern": "Menopausal Problems (Females)",
+            "score": 0,
+            "severity": ""
+        }
+    }
+}
