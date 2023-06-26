@@ -1,13 +1,16 @@
 import React from "react";
+import {Route, Routes} from "react-router-dom";
+import Survey from "./pages/Survey/Survey";
+import Results from "./pages/Results/Results";
 
 function App() {
   return (
-      <p className="mt-10 text-center text-sm text-gray-500">
-          Not a member?{' '}
-          <a href="/" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
-              Start a 14 day free trial
-          </a>
-      </p>
+      <div className="App">
+          <Routes>
+              <Route path="/" element={ <Survey/> } />
+              <Route path="results" element={ <Results/> } />
+          </Routes>
+      </div>
   );
 }
 

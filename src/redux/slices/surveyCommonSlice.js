@@ -1,9 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
-import initialPayload from "../../db/payload.json"
 
 export const surveyCommonSlice = createSlice({
     name: "surveyCommon",
-    initialState: initialPayload.surveyCommon,
+    initialState: {},
     reducers: {
         setCAT1: (state, action) => {
             return { ...state, CAT1: action.payload };
