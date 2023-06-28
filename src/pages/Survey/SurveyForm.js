@@ -26,7 +26,7 @@ const SurveyForm = () => {
 
     return (
         <>
-            <Card className="mt-6 mx-40 w-auto flex items-center">
+            <Card className="mt-6 md:mx-40 flex items-center">
                 <CardBody>
                     {activeStep === 0 && <PatientInfo />}
                     {activeStep === 1 && <SurveyCategory category={"1"} surveyList={category.CAT1} setCATData={setCAT1} />}

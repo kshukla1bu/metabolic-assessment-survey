@@ -11,7 +11,7 @@ const StepperComponent = () => {
 
     return (
         <>
-            <div className="w-full pt-20 py-10 px-8">
+            <div className="hidden md:block w-full pt-20 py-10 px-8">
                 <Stepper
                     activeStep={activeStep}
                 >
@@ -20,6 +20,7 @@ const StepperComponent = () => {
                     ))}
                 </Stepper>
             </div>
+            <div></div>
         </>
     );
 };

@@ -20,7 +20,7 @@ const PatientInfo = () => {
 
     return (
         <>
-            <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-96" onSubmit={handleSubmit(onSubmit)}>
+            <form className="mt-8 mb-2 md:w-80" onSubmit={handleSubmit(onSubmit)}>
                 <div className="mb-4 flex flex-col gap-6">
                     <Input {...register("patientName", {
                         required: true,

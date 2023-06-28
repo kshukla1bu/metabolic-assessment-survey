@@ -16,12 +16,12 @@ const SurveyCategory = ({ category, surveyList, setCATData }) => {
     return (
         <>
             <Typography variant='h5' color='black'>{`Category ${category}`}</Typography>
-            <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-96" onSubmit={handleSubmit(onSubmit)}>
+            <form className="mt-8 mb-2 md:w-80" onSubmit={handleSubmit(onSubmit)}>
                 <div className="mb-4 flex flex-col gap-6">
                     {surveyList.map((query, i) => (
                         <div key={i}>
                         <Typography variant="lead" color='black'>{query.query}</Typography>
-                        <div className="flex gap-10 items-center" >
+                        <div className="flex gap-7 md:gap-10" >
                             <Radio id="zero" value={0} label="0" {...register(query.query, {required: true})}/>
                             <Radio id="one" value={1} label="1" {...register(query.query, {required: true})}/>
                             <Radio id="two" value={2} label="2" {...register(query.query, {required: true})}/>
