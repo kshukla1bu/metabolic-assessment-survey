@@ -4,7 +4,7 @@ import {useForm} from "react-hook-form";
 import {setActiveStep} from "../../redux/slices/userSlice";
 import {useDispatch} from "react-redux";
 
-const SurveyCategory = ({ category, surveyList, setCATData }) => {
+const SurveyCategory = ({ category, surveyList, setCATData, reduxData }) => {
     const { register, handleSubmit } = useForm();
     const dispatch = useDispatch()
     const onSubmit = data => {
@@ -22,10 +22,10 @@ const SurveyCategory = ({ category, surveyList, setCATData }) => {
                         <div key={i}>
                         <Typography variant="lead" color='black'>{query.query}</Typography>
                         <div className="flex gap-7 md:gap-10" >
-                            <Radio id="zero" value={0} label="0" {...register(query.query, {required: true})}/>
-                            <Radio id="one" value={1} label="1" {...register(query.query, {required: true})}/>
-                            <Radio id="two" value={2} label="2" {...register(query.query, {required: true})}/>
-                            <Radio id="three" value={3} label="3" {...register(query.query, {required: true})}/>
+                            <Radio id="zero" value={0} label="0" {...register(query.id, {required: true, value: ''})}/>
+                            <Radio id="one" value={1} label="1" {...register(query.id, {required: true, value: ''})}/>
+                            <Radio id="two" value={2} label="2" {...register(query.id, {required: true, value: ''})}/>
+                            <Radio id="three" value={3} label="3" {...register(query.id, {required: true, value: 0})}/>
                         </div>
                         </div>
                     ))}

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Step, Stepper} from "@material-tailwind/react";
+import {Button, Step, Stepper, Typography} from "@material-tailwind/react";
 import  { surveySteps } from "../db/surveySteps"
 import {useSelector} from "react-redux";
 import {setActiveStep} from "../redux/slices/userSlice";
@@ -20,7 +20,17 @@ const StepperComponent = () => {
                     ))}
                 </Stepper>
             </div>
-            <div></div>
+            <div className="grid grid-cols-3 gap-4 md:hidden">
+                <div>
+                    {(activeStep !== 0 && activeStep !== 16) && <Button variant="text" onClick={() => dispatch(setActiveStep(activeStep-1))}>PREV.</Button>}
+                </div>
+                <div>
+                    <Typography className="text-center pt-2"> {activeStep+1 +' / '+ surveySteps.length}</Typography>
+                </div>
+                <div className="flow-root">
+                    {(activeStep !== 0 && activeStep !== 16) && <Button className="float-right" variant="text" onClick={() => dispatch(setActiveStep(activeStep+1))}>NEXT</Button> }
+                </div>
+            </div>
         </>
     );
 };
