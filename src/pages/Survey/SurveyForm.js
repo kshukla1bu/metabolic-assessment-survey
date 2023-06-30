@@ -49,12 +49,12 @@ const SurveyForm = () => {
                     {activeStep === 13 && <SurveyCategory category={"13"} surveyList={category.CAT13} setCATData={setCAT13} reduxData={surveyCommon?.CAT13}/>}
                     {
                         activeStep === 14 && (patientSex === 'Female' ?
-                        <SurveyCategory category={"14"} surveyList={categoryFemale.CAT16} setCATData={setCat16} reduxData={surveyFemale?.CAT16}/> :
+                        <SurveyCategory category={"16"} surveyList={categoryFemale.CAT16} setCATData={setCat16} reduxData={surveyFemale?.CAT16}/> :
                         <SurveyCategory category={"14"} surveyList={categoryMale.CAT14} setCATData={setCat14} reduxData={surveyMale?.CAT14}/>)
                     }
                     {
                         activeStep === 15 && (patientSex === 'Female' ?
-                            <SurveyCategory category={"15"} surveyList={categoryFemale.CAT17} setCATData={setCat17} reduxData={surveyFemale?.CAT17}/> :
+                            <SurveyCategory category={"17"} surveyList={categoryFemale.CAT17} setCATData={setCat17} reduxData={surveyFemale?.CAT17}/> :
                             <SurveyCategory category={"15"} surveyList={categoryMale.CAT15} setCATData={setCat15} reduxData={surveyMale?.CAT15}/>)
                     }
                 </CardBody>

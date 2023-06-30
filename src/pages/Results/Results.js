@@ -1,9 +1,14 @@
 import React from 'react';
+import Header from "../../components/Header";
+import StepperComponent from "../../components/StepperComponent";
+import ResultsComponent from "./ResultsComponent";
 
 const Results = () => {
     return (
         <>
-            <p>Your Results go here!</p>
+            <Header/>
+            <StepperComponent />
+            <ResultsComponent />
         </>
     );
 };

@@ -631,108 +631,159 @@
             }
         ]
     },
-    "finalResults": {
-        "CAT1Result": {
+    "finalResults": [
+         {
             "health_concern": "Colon",
             "score": 0,
             "severity": "",
-            "id":"1"
+            "id":"1",
+            "mild": "6",
+            "moderate": "14",
+            "severe": "30"
         },
-        "CAT2Result": {
+        {
             "health_concern": "Hypochlorhydria",
             "score": 0,
             "severity": "",
-            "id":"2"
+            "id":"2",
+            "mild": "4",
+            "moderate": "7",
+            "severe": "18"
         },
-        "CAT3Result": {
+        {
             "health_concern": "Hyperacidity",
             "score": 0,
             "severity": "",
-            "id":"3"
+            "id":"3",
+            "mild": "4",
+            "moderate": "9",
+            "severe": "21"
         },
-        "CAT4Result": {
+        {
             "health_concern": "Small Intestine/Pancreas",
             "score": 0,
             "severity": "",
-            "id":"4"
+            "id":"4",
+            "mild": "5",
+            "moderate": "12",
+            "severe": "27"
         },
-        "CAT5Result": {
+        {
             "health_concern": "Biliary Tract",
             "score": 0,
             "severity": "",
-            "id":"5"
+            "id":"5",
+            "mild": "6",
+            "moderate": "14",
+            "severe": "30"
         },
-        "CAT6Result": {
+        {
             "health_concern": "Hypoglycemia",
             "score": 0,
             "severity": "",
-            "id":"6"
+            "id":"6",
+            "mild": "5",
+            "moderate": "12",
+            "severe": "27"
         },
-        "CAT7Result": {
+        {
             "health_concern": "Insulin Resistance",
             "score": 0,
             "severity": "",
-            "id":"7"
+            "id":"7",
+            "mild": "4",
+            "moderate": "10",
+            "severe": "24"
         },
-        "CAT8Result": {
+        {
             "health_concern": "Adrenal Hypofunction (Fatigue)",
             "score": 0,
             "severity": "",
-            "id":"8"
+            "id":"8",
+            "mild": "4",
+            "moderate": "10",
+            "severe": "24"
         },
-        "CAT9Result": {
+        {
             "health_concern": "Adrenal Hyperfunction (Stress)",
             "score": 0,
             "severity": "",
-            "id":"9"
+            "id":"9",
+            "mild": "4",
+            "moderate": "7",
+            "severe": "18"
         },
-        "CAT10Result": {
+        {
             "health_concern": "Hypothyroid",
             "score": 0,
             "severity": "",
-            "id":"10"
+            "id":"10",
+            "mild": "7",
+            "moderate": "16",
+            "severe": "36"
         },
-        "CAT11Result": {
+        {
             "health_concern": "Thyroid Hyperfunction",
             "score": 0,
             "severity": "",
-            "id":"11"
+            "id":"11",
+            "mild": "4",
+            "moderate": "9",
+            "severe": "21"
         },
-        "CAT12Result": {
+        {
             "health_concern": "Pituitary Hypofunction",
             "score": 0,
             "severity": "",
-            "id":"12"
+            "id":"12",
+            "mild": "1",
+            "moderate": "3",
+            "severe": "9"
         },
-        "CAT13Result": {
+        {
             "health_concern": "Pituitary Hyperfunction",
             "score": 0,
             "severity": "",
-            "id":"13"
+            "id":"13",
+            "mild": "1",
+            "moderate": "3",
+            "severe": "9"
         },
-        "CAT14Result": {
+        {
             "health_concern": "Prostate Problems (Males)",
             "score": 0,
             "severity": "",
-            "id":"14"
+            "id":"14",
+            "mild": "3",
+            "moderate": "6",
+            "severe": "15"
         },
-        "CAT15Result": {
+        {
             "health_concern": "Andropause (Males)",
             "score": 0,
             "severity": "",
-            "id":"15"
+            "id":"15",
+            "mild": "8",
+            "moderate": "17",
+            "severe": "39"
         },
-        "CAT16Result": {
+        {
             "health_concern": "Menstruating Problems (Females)",
             "score": 0,
             "severity": "",
-            "id":"16"
+            "id":"16",
+            "mild": "8",
+            "moderate": "17",
+            "severe": "39"
         },
-        "CAT17Result": {
+        {
             "health_concern": "Menopausal Problems (Females)",
             "score": 0,
             "severity": "",
-            "id":"17"
+            "id":"17",
+            "mild": "6",
+            "moderate": "15",
+            "severe": "33"
         }
-    }
+    ]
 }

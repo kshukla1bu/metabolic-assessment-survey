@@ -40,7 +40,7 @@ const PatientInfo = () => {
                         <Radio id="male" value="Male" label="Male" {...register('patientSex', {required: true, value: sex || ''})}/>
                         <Radio id="female" value="Female" label="Female" {...register('patientSex', {required: true, value: sex || ''})}/>
                     </div>
-                    <Button type={"submit"}>Next</Button>
+                    <Button type="submit">Next</Button>
                 </div>
             </form>
         </>
