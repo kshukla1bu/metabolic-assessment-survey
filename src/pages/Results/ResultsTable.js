@@ -6,6 +6,7 @@ import {useSelector} from "react-redux";
 const ResultsTable = () => {
     const TABLE_HEAD = ["Health Concern", "Score", "Severity"];
     const TABLE_ROWS = initialPayload.finalResults;
+    const finalResults = useSelector(state => state?.finalResults)
     const {sex} =  useSelector(state => state?.user)
 
     return (
@@ -41,12 +42,16 @@ const ResultsTable = () => {
                                     (sex === "Female" && id === "15") ||
                                     (sex === "Male" && id === "16") ||
                                     (sex === "Male" && id === "17")
-                                        ? "-" : score}
+                                        ? "-" : finalResults["CAT"+(index+1)+"Result"]?.score}
                                 </Typography>
                             </td>
                             <td className="p-4">
                                 <Typography variant="small" color="blue-gray" className="font-normal">
-                                    {severity}
+                                    {(sex === "Female" && id === "14") ||
+                                    (sex === "Female" && id === "15") ||
+                                    (sex === "Male" && id === "16") ||
+                                    (sex === "Male" && id === "17")
+                                        ? "-" : finalResults["CAT"+(index+1)+"Result"]?.severity}
                                 </Typography>
                             </td>
                         </tr>

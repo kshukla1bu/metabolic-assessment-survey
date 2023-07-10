@@ -491,7 +491,7 @@
             },
             {
                 "query": "Leg nervousness at night",
-                "response": 0, "id": "14Em"
+                "response": 0, "id": "145"
             }
         ],
         "CAT15": [
@@ -513,39 +513,39 @@
             },
             {
                 "query": "Spells of mental fatigue",
-                "response": 0, "id": "15Em"
-            },
-            {
-                "query": "Inability to concentrate",
                 "response": 0, "id": "155"
             },
             {
-                "query": "Episodes of depression",
+                "query": "Inability to concentrate",
                 "response": 0, "id": "156"
             },
             {
-                "query": "Muscle soreness",
+                "query": "Episodes of depression",
                 "response": 0, "id": "157"
             },
             {
-                "query": "Decrease in physical stamina",
+                "query": "Muscle soreness",
                 "response": 0, "id": "158"
             },
             {
-                "query": "Unexplained weight gain",
+                "query": "Decrease in physical stamina",
                 "response": 0, "id": "159"
             },
             {
-                "query": "Increase in fat distribution around chest and hips",
+                "query": "Unexplained weight gain",
                 "response": 0, "id": "1510"
             },
             {
-                "query": "Sweating attacks",
+                "query": "Increase in fat distribution around chest and hips",
                 "response": 0, "id": "1511"
             },
             {
-                "query": "More emotional than in the past",
+                "query": "Sweating attacks",
                 "response": 0, "id": "1512"
+            },
+            {
+                "query": "More emotional than in the past",
+                "response": 0, "id": "1513"
             }
         ]
     },
@@ -569,23 +569,23 @@
             },
             {
                 "query": "Pelvic pain during menses",
-                "response": 0, "id": "16Ef"
-            },
-            {
-                "query": "Irritable and depressed during menses",
                 "response": 0, "id": "165"
             },
             {
-                "query": "Acne breakouts",
+                "query": "Irritable and depressed during menses",
                 "response": 0, "id": "166"
             },
             {
-                "query": "Facial hair growth",
+                "query": "Acne breakouts",
                 "response": 0, "id": "167"
             },
             {
-                "query": "Hair loss/thinning",
+                "query": "Facial hair growth",
                 "response": 0, "id": "168"
+            },
+            {
+                "query": "Hair loss/thinning",
+                "response": 0, "id": "169"
             }
         ],
         "CAT17": [
@@ -607,27 +607,27 @@
             },
             {
                 "query": "Depression",
-                "response": 0, "id": "17Ef"
-            },
-            {
-                "query": "Painful intercourse",
                 "response": 0, "id": "175"
             },
             {
-                "query": "Shrinking breasts",
+                "query": "Painful intercourse",
                 "response": 0, "id": "176"
             },
             {
-                "query": "Facial hair growth",
+                "query": "Shrinking breasts",
                 "response": 0, "id": "177"
             },
             {
-                "query": "Acne",
+                "query": "Facial hair growth",
                 "response": 0, "id": "178"
             },
             {
-                "query": "Increased vaginal pain, dryness or itching",
+                "query": "Acne",
                 "response": 0, "id": "179"
+            },
+            {
+                "query": "Increased vaginal pain, dryness or itching",
+                "response": 0, "id": "1710"
             }
         ]
     },

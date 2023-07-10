@@ -4,28 +4,23 @@ import {useForm} from "react-hook-form";
 import {useNavigate} from "react-router-dom";
 import {setActiveStep} from "../../redux/slices/userSlice";
 import {useDispatch, useSelector} from "react-redux";
-import {aggregateResponses} from "../../utils/utils";
 
 const SurveyCategory = ({ category, surveyList, setCATData, reduxData }) => {
     const { register, handleSubmit } = useForm();
-    const state = useSelector(state => state)
+    const activeStep = useSelector(state => state?.user?.activeStep)
     const dispatch = useDispatch()
     const navigate = useNavigate()
     const [open, setOpen] = useState(false)
     const onSubmit = data => {
-        console.log(data);
         dispatch(setCATData(data))
-        dispatch(setActiveStep(parseInt(category)+1))
         if(category === "15" || category === "17"){
-            state?.user?.sex === "Male" ?
-                aggregateResponses(state?.surveyCommon, state?.surveyMale, dispatch) :
-                aggregateResponses(state?.surveyCommon, state?.surveyFemale, dispatch)
-            dispatch(setActiveStep(parseInt(category)+1))
+            dispatch(setActiveStep(activeStep+1))
             navigate('/results')
         } else {
-            dispatch(setActiveStep(parseInt(category)+1))
+            dispatch(setActiveStep(activeStep+1))
         }
     }
+
     return (
         <>
             <Typography variant='h5' color='black'>{`Category ${category}`}</Typography>

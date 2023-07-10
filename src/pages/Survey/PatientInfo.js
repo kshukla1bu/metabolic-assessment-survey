@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
 import { useForm } from "react-hook-form";
-import {Button, Input, Radio, Typography} from "@material-tailwind/react";
+import {Button, Card, CardBody, Input, Radio, Typography} from "@material-tailwind/react";
 import {useDispatch, useSelector} from "react-redux";
 import {setActiveStep, setAge, setDate, setName, setSex} from "../../redux/slices/userSlice";
+import {useNavigate} from "react-router-dom";
 
 const PatientInfo = () => {
     const { register,
@@ -10,18 +11,21 @@ const PatientInfo = () => {
     const dispatch = useDispatch()
     const [currentDate] = useState((new Date().getMonth()+1)+" / "+new Date().getDate()+" / "+new Date().getFullYear())
     const {name, age, sex} =  useSelector(state => state?.user)
+    const navigate = useNavigate()
 
     const onSubmit = data => {
-        console.log(data);
         dispatch(setName(data?.patientName))
         dispatch(setAge(data?.patientAge))
         dispatch(setDate(currentDate))
         dispatch(setSex(data?.patientSex))
         dispatch(setActiveStep(1))
+        navigate('/survey')
     };
 
     return (
         <>
+            <Card className="mt-1 md:mx-40 flex items-center">
+                <CardBody>
             <form className="mt-8 mb-2 md:w-80" onSubmit={handleSubmit(onSubmit)}>
                 <div className="mb-4 flex flex-col gap-6">
                     <Input {...register("patientName", {
@@ -43,6 +47,8 @@ const PatientInfo = () => {
                     <Button type="submit">Next</Button>
                 </div>
             </form>
+                    </CardBody>
+            </Card>
         </>
     );
 };

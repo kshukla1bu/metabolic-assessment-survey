@@ -9,13 +9,21 @@ import surveyFemaleReducer from "./slices/surveyFemaleSlice";
 import finalResultsReducer from "./slices/finalResultsSlice";
 
 
-const rootReducer = combineReducers({
+const appReducer = combineReducers({
     user: userReducer,
     surveyCommon: surveyCommonReducer,
     surveyMale: surveyMaleReducer,
     surveyFemale: surveyFemaleReducer,
     finalResults: finalResultsReducer,
 });
+
+const rootReducer = (state, action) => {
+    if (action.type === 'RESET') {
+        return appReducer(undefined, action)
+    }
+
+    return appReducer(state, action)
+}
 
 const persistConfig = {
     key: "root",

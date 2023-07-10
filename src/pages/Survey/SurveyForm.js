@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import PatientInfo from "./PatientInfo";
 import {useSelector} from "react-redux";
 import {CardBody, Card, Typography} from "@material-tailwind/react";
@@ -33,7 +33,6 @@ const SurveyForm = () => {
             <Typography className="mt-4 mx-4 text-center text-xs md:text-xl" >Please select the appropriate number “0 - 3” on all questions below. 0 as the least/never to 3 as the most/always.</Typography>}
             <Card className="mt-1 md:mx-40 flex items-center">
                 <CardBody>
-                    {activeStep === 0 && <PatientInfo />}
                     {activeStep === 1 && <SurveyCategory category={"1"} surveyList={category.CAT1} setCATData={setCAT1} reduxData={surveyCommon?.CAT1}/>}
                     {activeStep === 2 && <SurveyCategory category={"2"} surveyList={category.CAT2} setCATData={setCAT2} reduxData={surveyCommon?.CAT2}/>}
                     {activeStep === 3 && <SurveyCategory category={"3"} surveyList={category.CAT3} setCATData={setCAT3} reduxData={surveyCommon?.CAT3}/>}
